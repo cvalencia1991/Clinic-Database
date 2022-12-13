@@ -6,7 +6,7 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Vet Clinic DataBase</b></h3>
+  <h3><b>Clinic Database/b></h3>
 
 </div>
 
@@ -36,16 +36,16 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Vet Clinic dataBase <a name="about-project"></a>
+# 📖 Clinic Database <a name="about-project"></a>
 
-In this project I using the PostGerSQL and Data in a LocalHost 
+> In this project my colleague and I prepared a databse from a schema that was provided. We also join the tables to form many-to-many relationships.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-<summary>Database</summary>
+<summary>Schema Database</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
@@ -164,6 +164,11 @@ Example:
 - Twitter: [https://twitter.com/cvalenciaguilar](@cvalenciaguilar)
 - LinkedIn: [https://www.linkedin.com/in/cvalenciaguilar/](www.linkedin.com/in/cvalenciaguilar)
 
+👤 **Kelvin Benjamin**
+
+- GitHub: [@Kelvin-Ben](https://github.com/Kelvin-Ben)
+- Twitter: [@kevoyout144](https://twitter.com/kevoyout144)
+- LinkedIn: [Kelvin-Ben](https://www.linkedin.com/in/kelvin-ben-323043173/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -186,7 +191,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/cvalencia1991/Vet-clinic-database/issues).
+Feel free to check the [issues page](https://github.com/cvalencia1991/Clinic-Database/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

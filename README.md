@@ -61,6 +61,9 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Schema 
+
+![drawSQL-export-2022-12-13_16_08](https://user-images.githubusercontent.com/107327344/207443897-aa593a12-e3e8-4338-b82b-a712cb479915.png)
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>

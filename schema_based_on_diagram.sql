@@ -14,7 +14,7 @@ CREATE TABLE medical_histories(
 );
 
 ALTER TABLE medical_histories
-    ADD CONSTRAINT fk_medical_histories_patient
+    ADD CONSTRAINT fk_medical_histories
     FOREIGN KEY(patient_id) REFERENCES patients(id);
 
 
@@ -23,6 +23,7 @@ CREATE TABLE treatments(
     type VARCHAR(255) NOT NULL,
     name VARCHAR(255) NOT NULL,
     PRIMARY KEY (id)
+    CONSTRAINT fk_medical_histories FOREIGN KEY (medical_histories_id) REFERENCES medical_histories (id)
 );
 
 CREATE TABLE invoices(
@@ -32,7 +33,7 @@ CREATE TABLE invoices(
     payed_at TIMESTAMP NOT NULL,
     medical_history_id INT NOT NULL
     PRIMARY KEY (id);
-    CONSTRAINT fk_invoices FOREIGN KEY(medical_history_id) REFERENCES medical_histories(id);
+    CONSTRAINT fk_medical_histories FOREIGN KEY(medical_histories_id) REFERENCES medical_histories(id);
 );
 
 CREATE TABLE invoice_items(
@@ -43,7 +44,7 @@ CREATE TABLE invoice_items(
     invoice_id INT NOT NULL,
     tretment_id INT NOT NULL,
     PRIMARY KEY (id);
-    CONSTRAINT fk_invoice_items FOREIGN KEY(tretment_id) REFERENCES treatments(id);
-    CONSTRAINT fk_invoice_items_invoices FOREIGN KEY(invoice_id) REFERENCES invoices(id);
+    CONSTRAINT fk_treatment FOREIGN KEY(tretment_id) REFERENCES treatments(id);
+    CONSTRAINT fk_invoice FOREIGN KEY(invoice_id) REFERENCES invoices(id);
 );
 
